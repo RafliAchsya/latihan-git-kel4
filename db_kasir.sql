@@ -3,7 +3,11 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
+<<<<<<< HEAD
 -- Generation Time: Jul 01, 2023 at 05:21 AM
+=======
+-- Generation Time: Jun 13, 2023 at 07:32 PM
+>>>>>>> ab93396826d6e21c62158dbf1d05bf5959f38431
 -- Server version: 10.4.28-MariaDB
 -- PHP Version: 8.0.28
 
@@ -24,6 +28,7 @@ SET time_zone = "+00:00";
 -- --------------------------------------------------------
 
 --
+<<<<<<< HEAD
 -- Table structure for table `buku`
 --
 
@@ -76,6 +81,8 @@ INSERT INTO `kategori` (`id_kategori`, `nama_kategori`) VALUES
 -- --------------------------------------------------------
 
 --
+=======
+>>>>>>> ab93396826d6e21c62158dbf1d05bf5959f38431
 -- Table structure for table `user`
 --
 
@@ -113,6 +120,7 @@ CREATE TABLE `user_role` (
 --
 
 --
+<<<<<<< HEAD
 -- Indexes for table `buku`
 --
 ALTER TABLE `buku`
@@ -125,6 +133,8 @@ ALTER TABLE `kategori`
   ADD PRIMARY KEY (`id_kategori`);
 
 --
+=======
+>>>>>>> ab93396826d6e21c62158dbf1d05bf5959f38431
 -- Indexes for table `user`
 --
 ALTER TABLE `user`
@@ -141,6 +151,7 @@ ALTER TABLE `user_role`
 --
 
 --
+<<<<<<< HEAD
 -- AUTO_INCREMENT for table `buku`
 --
 ALTER TABLE `buku`
@@ -153,6 +164,8 @@ ALTER TABLE `kategori`
   MODIFY `id_kategori` int(5) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=9;
 
 --
+=======
+>>>>>>> ab93396826d6e21c62158dbf1d05bf5959f38431
 -- AUTO_INCREMENT for table `user`
 --
 ALTER TABLE `user`
