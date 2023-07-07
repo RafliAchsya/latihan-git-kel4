@@ -1,0 +1,149 @@
+/*Navbar*/
+nav {
+    margin-top: -10px;
+}
+
+.container-fluid {
+    background-color:#0779E3;
+}
+nav ul {
+    width: 40%;
+    justify-content: space-evenly;
+}
+
+.container-fluid ul li a{
+    font-size: larger;
+    font-family: 'Merriweather', serif;
+}
+
+.container-fluid ul li a:hover {
+    color: white;
+}
+
+.container-fluid ul li .dropdown-item:hover {
+    background-color: #0779E3;
+    color: white;
+}
+
+/* produk */
+#row {
+    padding-top: 110px;
+    padding-left: 25px;
+}
+
+.center-card {
+    display: flex;
+    justify-content: center;
+}
+
+.card-body h1 {
+    font-family: 'Lora', serif;
+    font-size: 30px;
+}
+
+.card-text {
+    color: #D0011B;
+}
+
+.card-body .btn {
+    font-family: 'PT Serif', serif;
+}
+
+/* footer */
+.footer {
+    background-color: #0779E3;
+}
+
+.footer .content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.column {
+    flex: 1;
+    text-align: center;
+    font-family: 'Lora', serif;
+}
+
+footer .content h3 {
+    font-size: 30px;
+}
+
+footer .content .bi {
+    position: absolute;
+    margin-left: -18.5rem;
+    font-size: 1.4375rem;
+    color: black;
+    background-color: #0779E3;
+    height: 40px;
+    width: 35px;
+    margin-top: -10px;
+    font-size: 30px;
+    line-height: 45px;
+    text-align: center;
+    border-radius: 5px;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+footer .content .nomor {
+    position: absolute;
+    display: flex;
+    float: right;
+    margin-top: 3px;
+    padding-left: 31rem;
+}
+
+footer .content .bi:hover {
+    box-shadow: 0 0 3px 3px rgba(0, 0, 0, 0.3);
+    background-color: #D0011B;
+    color: white;
+}
+
+footer .content p {
+    font-size: 16px;
+}
+
+center a {
+    color: white;
+}
+
+/* ukuran tablet aan mobile */
+@media (max-width: 768px) {
+    nav {
+        margin-top: -10px;
+    }
+
+    /* produk */
+    .center-card {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+    }
+
+    /* footer */
+    footer {
+        width: 100%;
+    }
+
+    footer .content h3 {
+        font-size: 27px;
+    }
+
+    footer .content p {
+        font-size: 14px;
+    }
+
+    footer .content .bi {
+        margin-left: -120px;
+    }
+
+    footer .content .nomor {
+        margin-top: 1px;
+        margin-left: -397px;
+    }
+}
